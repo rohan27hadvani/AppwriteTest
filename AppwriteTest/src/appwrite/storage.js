@@ -2,7 +2,7 @@ import config from "../config/config.js"
 import { Client, Databases, Storage, ID } from "appwrite";
 
 
-export class Service {
+export class storageService {
     client = new Client()
     databases;
     bucket;
@@ -48,5 +48,5 @@ export class Service {
 }
 
 
-const service = new Service()
-export default service;
+const storageservice = new storageService()
+export default storageservice;
